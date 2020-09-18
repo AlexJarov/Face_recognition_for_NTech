@@ -1,4 +1,4 @@
-#Programm of finding maxsimal submassive
+#Programm finding maxsimal submassive
 #by Jarov Alexey Valeryevich
 #Algoritm requires one loop across array, so it has complexity of O(n),
 #That is better than plain brute force of each submassive,
@@ -52,6 +52,6 @@ def findMaxSubArray(A): #defining function findMaxSubArray, it requires a one-di
         return A[maxL:maxR]
 
 #Now we inputing array by keyboard
-A = list(map(int,input("Enter the numbers of arry splitting them by Backspase, press Enter when done").split( )))
+A = list(map(int,input("Enter the numbers of array splitting them by Backspase, press Enter when done").split( )))
 #And here is the result:
 print(findMaxSubArray(A))
